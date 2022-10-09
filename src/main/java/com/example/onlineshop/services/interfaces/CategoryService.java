@@ -1,7 +1,7 @@
 package com.example.onlineshop.services.interfaces;
 
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.CategoryFilterBoundsDto;
-import com.databases.shop.models.Category;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.CategoryFilterBoundsDto;
+import com.example.onlineshop.models.Category;
 
 public interface CategoryService {
 

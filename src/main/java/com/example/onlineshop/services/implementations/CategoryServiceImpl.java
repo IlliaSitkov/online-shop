@@ -1,14 +1,14 @@
 package com.example.onlineshop.services.implementations;
 
-import com.databases.shop.exceptions.category.CategoryIllegalArgumentException;
-import com.databases.shop.exceptions.category.NoCategoryWithSuchId;
-import com.databases.shop.exceptions.category.UnableToDeleteCategoryException;
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.CategoryFilterBoundsDto;
-import com.databases.shop.models.Category;
-import com.databases.shop.repositories.CategoryRepository;
-import com.databases.shop.repositories.queryinterfaces.MinMaxValues;
-import com.databases.shop.services.interfaces.CategoryService;
-import com.databases.shop.utils.Utils;
+import com.example.onlineshop.exceptions.category.CategoryIllegalArgumentException;
+import com.example.onlineshop.exceptions.category.NoCategoryWithSuchId;
+import com.example.onlineshop.exceptions.category.UnableToDeleteCategoryException;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.CategoryFilterBoundsDto;
+import com.example.onlineshop.models.Category;
+import com.example.onlineshop.repositories.CategoryRepository;
+import com.example.onlineshop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.services.interfaces.CategoryService;
+import com.example.onlineshop.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

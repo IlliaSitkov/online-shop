@@ -1,16 +1,16 @@
 package com.example.onlineshop.controllers;
 
-import com.databases.shop.exceptions.product.NoProductWithSuchArticul;
-import com.databases.shop.exceptions.product.ProductIllegalArgumentException;
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.ProductFilterBoundsDto;
-import com.databases.shop.mapstruct.dtos.product.ProductGetDto;
-import com.databases.shop.mapstruct.dtos.product.ProductPostDto;
-import com.databases.shop.mapstruct.dtos.product.ProductPutDto;
-import com.databases.shop.mapstruct.dtos.product.ProductSlimGetDto;
-import com.databases.shop.mapstruct.mappers.ProductMapper;
-import com.databases.shop.models.Product;
-import com.databases.shop.services.implementations.ProductServiceImpl;
-import com.databases.shop.utils.Utils;
+import com.example.onlineshop.exceptions.product.NoProductWithSuchArticul;
+import com.example.onlineshop.exceptions.product.ProductIllegalArgumentException;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.ProductFilterBoundsDto;
+import com.example.onlineshop.mapstruct.dtos.product.ProductGetDto;
+import com.example.onlineshop.mapstruct.dtos.product.ProductPostDto;
+import com.example.onlineshop.mapstruct.dtos.product.ProductPutDto;
+import com.example.onlineshop.mapstruct.dtos.product.ProductSlimGetDto;
+import com.example.onlineshop.mapstruct.mappers.ProductMapper;
+import com.example.onlineshop.models.Product;
+import com.example.onlineshop.services.implementations.ProductServiceImpl;
+import com.example.onlineshop.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -36,7 +36,6 @@ public class ProductController {
 
     @Autowired
     private Utils utils;
-
     @GetMapping
     //@PreAuthorize("hasRole('ADMIN') or hasRole('SALESMAN') or hasRole('CUSTOMER')")
     public Iterable<ProductGetDto> getProducts(){

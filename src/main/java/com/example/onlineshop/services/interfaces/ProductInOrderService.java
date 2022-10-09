@@ -1,7 +1,7 @@
 package com.example.onlineshop.services.interfaces;
 
-import com.databases.shop.mapstruct.dtos.productInOrder.ProductInOrderPostDto;
-import com.databases.shop.models.ProductInOrder;
+import com.example.onlineshop.mapstruct.dtos.productInOrder.ProductInOrderPostDto;
+import com.example.onlineshop.models.ProductInOrder;
 
 public interface ProductInOrderService {
 

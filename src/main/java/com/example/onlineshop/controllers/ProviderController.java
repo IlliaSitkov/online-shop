@@ -1,15 +1,15 @@
 package com.example.onlineshop.controllers;
 
-import com.databases.shop.exceptions.provider.NoProviderWithSuchEdrpou;
-import com.databases.shop.exceptions.provider.ProviderIllegalArgumentException;
-import com.databases.shop.mapstruct.dtos.provider.ProviderGetDto;
-import com.databases.shop.mapstruct.dtos.provider.ProviderPostDto;
-import com.databases.shop.mapstruct.dtos.provider.ProviderPutDto;
-import com.databases.shop.mapstruct.dtos.provider.ProviderSlimGetDto;
-import com.databases.shop.mapstruct.mappers.ProviderMapper;
-import com.databases.shop.models.Provider;
-import com.databases.shop.repositories.queryinterfaces.MinMaxValues;
-import com.databases.shop.services.interfaces.ProviderService;
+import com.example.onlineshop.exceptions.provider.NoProviderWithSuchEdrpou;
+import com.example.onlineshop.exceptions.provider.ProviderIllegalArgumentException;
+import com.example.onlineshop.mapstruct.dtos.provider.ProviderGetDto;
+import com.example.onlineshop.mapstruct.dtos.provider.ProviderPostDto;
+import com.example.onlineshop.mapstruct.dtos.provider.ProviderPutDto;
+import com.example.onlineshop.mapstruct.dtos.provider.ProviderSlimGetDto;
+import com.example.onlineshop.mapstruct.mappers.ProviderMapper;
+import com.example.onlineshop.models.Provider;
+import com.example.onlineshop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.services.interfaces.ProviderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

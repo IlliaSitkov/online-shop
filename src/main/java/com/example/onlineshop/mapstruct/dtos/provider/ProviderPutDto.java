@@ -1,7 +1,7 @@
 package com.example.onlineshop.mapstruct.dtos.provider;
 
-import com.databases.shop.models.Address;
-import com.databases.shop.models.Contacts;
+import com.example.onlineshop.models.Address;
+import com.example.onlineshop.models.Contacts;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,8 +1,8 @@
 package com.example.onlineshop.mapstruct.dtos.customer;
 
-import com.databases.shop.mapstruct.dtos.contacts.ContactsPutDto;
-import com.databases.shop.models.Address;
-import com.databases.shop.models.PersonName;
+import com.example.onlineshop.mapstruct.dtos.contacts.ContactsPutDto;
+import com.example.onlineshop.models.Address;
+import com.example.onlineshop.models.PersonName;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;

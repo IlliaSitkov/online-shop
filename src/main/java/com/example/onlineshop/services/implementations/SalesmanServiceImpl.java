@@ -1,20 +1,20 @@
 package com.example.onlineshop.services.implementations;
 
-import com.databases.shop.exceptions.salesman.NoSalesmanWithSuchIdException;
-import com.databases.shop.exceptions.salesman.SalesmanRegistrationException;
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.SalesmanFilterBoundsDto;
-import com.databases.shop.mapstruct.dtos.salesman.SalesmanGetDto;
-import com.databases.shop.mapstruct.dtos.salesman.SalesmanPostDto;
-import com.databases.shop.mapstruct.mappers.SalesmanMapper;
-import com.databases.shop.models.Order;
-import com.databases.shop.models.Salesman;
-import com.databases.shop.repositories.OrderRepository;
-import com.databases.shop.repositories.SalesmanFilterRepository;
-import com.databases.shop.repositories.SalesmanRepository;
-import com.databases.shop.repositories.queryinterfaces.MinMaxValues;
-import com.databases.shop.services.interfaces.AdminService;
-import com.databases.shop.services.interfaces.SalesmanService;
-import com.databases.shop.utils.Utils;
+import com.example.onlineshop.exceptions.salesman.NoSalesmanWithSuchIdException;
+import com.example.onlineshop.exceptions.salesman.SalesmanRegistrationException;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.SalesmanFilterBoundsDto;
+import com.example.onlineshop.mapstruct.dtos.salesman.SalesmanGetDto;
+import com.example.onlineshop.mapstruct.dtos.salesman.SalesmanPostDto;
+import com.example.onlineshop.mapstruct.mappers.SalesmanMapper;
+import com.example.onlineshop.models.Order;
+import com.example.onlineshop.models.Salesman;
+import com.example.onlineshop.repositories.OrderRepository;
+import com.example.onlineshop.repositories.SalesmanFilterRepository;
+import com.example.onlineshop.repositories.SalesmanRepository;
+import com.example.onlineshop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.services.interfaces.AdminService;
+import com.example.onlineshop.services.interfaces.SalesmanService;
+import com.example.onlineshop.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

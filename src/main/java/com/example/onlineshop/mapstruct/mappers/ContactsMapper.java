@@ -1,7 +1,7 @@
 package com.example.onlineshop.mapstruct.mappers;
 
-import com.databases.shop.mapstruct.dtos.contacts.ContactsPutDto;
-import com.databases.shop.models.Contacts;
+import com.example.onlineshop.mapstruct.dtos.contacts.ContactsPutDto;
+import com.example.onlineshop.models.Contacts;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

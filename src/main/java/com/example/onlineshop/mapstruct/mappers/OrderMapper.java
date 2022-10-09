@@ -1,9 +1,9 @@
 package com.example.onlineshop.mapstruct.mappers;
 
-import com.databases.shop.mapstruct.dtos.order.OrderBasketGetDto;
-import com.databases.shop.mapstruct.dtos.order.OrderGetDto;
-import com.databases.shop.mapstruct.dtos.order.OrderSlimGetDto;
-import com.databases.shop.models.Order;
+import com.example.onlineshop.mapstruct.dtos.order.OrderBasketGetDto;
+import com.example.onlineshop.mapstruct.dtos.order.OrderGetDto;
+import com.example.onlineshop.mapstruct.dtos.order.OrderSlimGetDto;
+import com.example.onlineshop.models.Order;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

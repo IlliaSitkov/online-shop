@@ -1,13 +1,16 @@
-package com.example.reportgenerator.dto;
+package com.example.onlineshop.mapstruct.dtos.order;
 
+import com.example.onlineshop.repositories.queryinterfaces.OrderGroupReportValues;
+import com.example.onlineshop.repositories.queryinterfaces.OrderReportValues;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
-import java.util.Collection;
 import java.util.Date;
 
 @Getter
+@Setter
 @ToString
 public class OrderReportData {
 
@@ -20,11 +23,11 @@ public class OrderReportData {
     @JsonProperty("averageOrderCost")
     private double averageOrderCost;
 
-    @JsonProperty("averageOrderCost")
-    private Collection<OrderGroupReportValues> orderGroupReportValues;
+    @JsonProperty("orderGroupReportValues")
+    private Iterable<OrderGroupReportValues> orderGroupReportValues;
 
     @JsonProperty("orderReportValues")
-    private Collection<OrderReportValues> orderReportValues;
+    private Iterable<OrderReportValues> orderReportValues;
 
     @JsonProperty("dateStart")
     private Date dateStart;

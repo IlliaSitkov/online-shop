@@ -1,10 +1,10 @@
 package com.example.onlineshop.mapstruct.mappers;
 
-import com.databases.shop.mapstruct.dtos.category.CategoryGetDto;
-import com.databases.shop.mapstruct.dtos.category.CategoryPostDto;
-import com.databases.shop.mapstruct.dtos.category.CategoryPutDto;
-import com.databases.shop.mapstruct.dtos.category.CategorySlimGetDto;
-import com.databases.shop.models.Category;
+import com.example.onlineshop.mapstruct.dtos.category.CategoryGetDto;
+import com.example.onlineshop.mapstruct.dtos.category.CategoryPostDto;
+import com.example.onlineshop.mapstruct.dtos.category.CategoryPutDto;
+import com.example.onlineshop.mapstruct.dtos.category.CategorySlimGetDto;
+import com.example.onlineshop.models.Category;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

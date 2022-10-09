@@ -1,9 +1,9 @@
 package com.example.onlineshop.controllers;
 
-import com.databases.shop.mapstruct.dtos.productInOrder.ProductInOrderGetDto;
-import com.databases.shop.mapstruct.dtos.productInOrder.ProductInOrderPostDto;
-import com.databases.shop.mapstruct.mappers.ProductInOrderMapper;
-import com.databases.shop.services.interfaces.ProductInOrderService;
+import com.example.onlineshop.mapstruct.dtos.productInOrder.ProductInOrderGetDto;
+import com.example.onlineshop.mapstruct.dtos.productInOrder.ProductInOrderPostDto;
+import com.example.onlineshop.mapstruct.mappers.ProductInOrderMapper;
+import com.example.onlineshop.services.interfaces.ProductInOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

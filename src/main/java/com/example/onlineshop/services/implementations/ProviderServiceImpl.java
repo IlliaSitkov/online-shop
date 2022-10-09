@@ -1,15 +1,15 @@
 package com.example.onlineshop.services.implementations;
 
-import com.databases.shop.exceptions.provider.NoProviderWithSuchEdrpou;
-import com.databases.shop.exceptions.provider.ProviderIllegalArgumentException;
-import com.databases.shop.exceptions.provider.UnableToDeleteProviderException;
-import com.databases.shop.models.Address;
-import com.databases.shop.models.Contacts;
-import com.databases.shop.models.Provider;
-import com.databases.shop.repositories.ProviderRepository;
-import com.databases.shop.repositories.queryinterfaces.MinMaxValues;
-import com.databases.shop.services.interfaces.ProviderService;
-import com.databases.shop.utils.Utils;
+import com.example.onlineshop.exceptions.provider.NoProviderWithSuchEdrpou;
+import com.example.onlineshop.exceptions.provider.ProviderIllegalArgumentException;
+import com.example.onlineshop.exceptions.provider.UnableToDeleteProviderException;
+import com.example.onlineshop.models.Address;
+import com.example.onlineshop.models.Contacts;
+import com.example.onlineshop.models.Provider;
+import com.example.onlineshop.repositories.ProviderRepository;
+import com.example.onlineshop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.services.interfaces.ProviderService;
+import com.example.onlineshop.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

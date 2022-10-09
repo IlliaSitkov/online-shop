@@ -1,6 +1,6 @@
 package com.example.onlineshop.repositories;
 
-import com.databases.shop.models.Salesman;
+import com.example.onlineshop.models.Salesman;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

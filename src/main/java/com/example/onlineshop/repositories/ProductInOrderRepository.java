@@ -1,7 +1,7 @@
 package com.example.onlineshop.repositories;
 
-import com.databases.shop.models.ProductInOrder;
-import com.databases.shop.models.ProductInOrderId;
+import com.example.onlineshop.models.ProductInOrder;
+import com.example.onlineshop.models.ProductInOrderId;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

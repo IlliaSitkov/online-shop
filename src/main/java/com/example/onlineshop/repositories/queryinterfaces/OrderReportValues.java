@@ -1,4 +1,4 @@
-package com.databases.model;
+package com.example.onlineshop.repositories.queryinterfaces;
 
 import java.util.Date;
 

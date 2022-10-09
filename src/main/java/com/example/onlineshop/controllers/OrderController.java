@@ -1,12 +1,12 @@
 package com.example.onlineshop.controllers;
 
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.OrderFilterBoundsDto;
-import com.databases.shop.mapstruct.dtos.order.OrderBasketGetDto;
-import com.databases.shop.mapstruct.dtos.order.OrderGetDto;
-import com.databases.shop.mapstruct.dtos.order.OrderPostDto;
-import com.databases.shop.mapstruct.dtos.order.OrderSlimGetDto;
-import com.databases.shop.mapstruct.mappers.OrderMapper;
-import com.databases.shop.services.interfaces.OrderService;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.OrderFilterBoundsDto;
+import com.example.onlineshop.mapstruct.dtos.order.OrderBasketGetDto;
+import com.example.onlineshop.mapstruct.dtos.order.OrderGetDto;
+import com.example.onlineshop.mapstruct.dtos.order.OrderPostDto;
+import com.example.onlineshop.mapstruct.dtos.order.OrderSlimGetDto;
+import com.example.onlineshop.mapstruct.mappers.OrderMapper;
+import com.example.onlineshop.services.interfaces.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,8 @@
 package com.example.onlineshop.repositories;
 
-import com.databases.model.ProductReportValues;
-import com.databases.shop.models.Product;
-import com.databases.shop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.models.Product;
+import com.example.onlineshop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.repositories.queryinterfaces.ProductReportValues;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -120,7 +120,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
                    "FROM product p LEFT OUTER JOIN\n" +
                          "(product_in_order JOIN order_t ON id = order_id) ON articul = product_articul\n" +
                    "WHERE (status = 'DONE' OR status IS NULL)\n" +
-                   "AND (date_created BETWEEN :dateStart AND :dateEnd) OR date_created IS NULL\n" +
+                   "AND (DATE(date_created) BETWEEN :dateStart AND :dateEnd) OR date_created IS NULL\n" +
                    "GROUP BY articul\n" +
                    "ORDER BY articul", nativeQuery = true)
     Iterable<ProductReportValues> productReport(LocalDate dateStart, LocalDate dateEnd);
@@ -128,6 +128,6 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     @Query(value = "SELECT COALESCE(SUM(prod_quantity),0) AS soldQuantity\n" +
                    "FROM product p JOIN\n" +
                         "(product_in_order JOIN order_t ON id = order_id) ON articul = product_articul\n" +
-                   "WHERE status = 'DONE' AND (date_created BETWEEN :dateStart AND :dateEnd)\n", nativeQuery = true)
+                   "WHERE status = 'DONE' AND (DATE(date_created) BETWEEN :dateStart AND :dateEnd)\n", nativeQuery = true)
     int getSoldProductsQuant(LocalDate dateStart, LocalDate dateEnd);
 }

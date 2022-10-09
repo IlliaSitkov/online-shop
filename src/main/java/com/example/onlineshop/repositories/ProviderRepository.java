@@ -1,7 +1,7 @@
 package com.example.onlineshop.repositories;
 
-import com.databases.shop.models.Provider;
-import com.databases.shop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.models.Provider;
+import com.example.onlineshop.repositories.queryinterfaces.MinMaxValues;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

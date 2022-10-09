@@ -1,9 +1,9 @@
 package com.example.onlineshop.mapstruct.dtos.order;
 
-import com.databases.shop.mapstruct.dtos.customer.CustomerGetDto;
-import com.databases.shop.mapstruct.dtos.productInOrder.ProductInOrderGetDto;
-import com.databases.shop.mapstruct.dtos.salesman.SalesmanGetDto;
-import com.databases.shop.models.OrderStatus;
+import com.example.onlineshop.mapstruct.dtos.customer.CustomerGetDto;
+import com.example.onlineshop.mapstruct.dtos.productInOrder.ProductInOrderGetDto;
+import com.example.onlineshop.mapstruct.dtos.salesman.SalesmanGetDto;
+import com.example.onlineshop.models.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.sun.istack.Nullable;
 import lombok.Setter;

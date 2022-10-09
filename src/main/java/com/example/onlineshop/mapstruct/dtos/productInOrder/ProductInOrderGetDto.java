@@ -1,7 +1,7 @@
 package com.example.onlineshop.mapstruct.dtos.productInOrder;
 
-import com.databases.shop.mapstruct.dtos.order.OrderSlimGetDto;
-import com.databases.shop.mapstruct.dtos.product.ProductGetDto;
+import com.example.onlineshop.mapstruct.dtos.order.OrderSlimGetDto;
+import com.example.onlineshop.mapstruct.dtos.product.ProductGetDto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;

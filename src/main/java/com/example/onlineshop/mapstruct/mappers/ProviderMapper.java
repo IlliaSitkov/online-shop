@@ -1,10 +1,10 @@
 package com.example.onlineshop.mapstruct.mappers;
 
-import com.databases.shop.mapstruct.dtos.provider.ProviderGetDto;
-import com.databases.shop.mapstruct.dtos.provider.ProviderPostDto;
-import com.databases.shop.mapstruct.dtos.provider.ProviderPutDto;
-import com.databases.shop.mapstruct.dtos.provider.ProviderSlimGetDto;
-import com.databases.shop.models.Provider;
+import com.example.onlineshop.mapstruct.dtos.provider.ProviderGetDto;
+import com.example.onlineshop.mapstruct.dtos.provider.ProviderPostDto;
+import com.example.onlineshop.mapstruct.dtos.provider.ProviderPutDto;
+import com.example.onlineshop.mapstruct.dtos.provider.ProviderSlimGetDto;
+import com.example.onlineshop.models.Provider;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

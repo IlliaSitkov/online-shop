@@ -1,11 +1,11 @@
 package com.example.onlineshop.services.implementations;
 
-import com.databases.shop.exceptions.user.NoUserWithSuchEmailException;
-import com.databases.shop.mapstruct.dtos.user.UserGetDto;
-import com.databases.shop.mapstruct.mappers.UserMapper;
-import com.databases.shop.services.interfaces.CustomerService;
-import com.databases.shop.services.interfaces.SalesmanService;
-import com.databases.shop.services.interfaces.UserService;
+import com.example.onlineshop.exceptions.user.NoUserWithSuchEmailException;
+import com.example.onlineshop.mapstruct.dtos.user.UserGetDto;
+import com.example.onlineshop.mapstruct.mappers.UserMapper;
+import com.example.onlineshop.services.interfaces.CustomerService;
+import com.example.onlineshop.services.interfaces.SalesmanService;
+import com.example.onlineshop.services.interfaces.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

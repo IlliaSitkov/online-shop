@@ -1,8 +1,8 @@
 package com.example.onlineshop.services.interfaces;
 
 
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.CustomerFilterBoundsDto;
-import com.databases.shop.models.Customer;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.CustomerFilterBoundsDto;
+import com.example.onlineshop.models.Customer;
 
 public interface CustomerService {
 

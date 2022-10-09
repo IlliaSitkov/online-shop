@@ -1,11 +1,14 @@
-package com.example.reportgenerator.dto;
+package com.example.onlineshop.mapstruct.dtos.product;
 
+import com.example.onlineshop.repositories.queryinterfaces.ProductReportValues;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
 
 @Getter
+@Setter
 public class ProductReportData {
 
     @JsonProperty("productReportValues")

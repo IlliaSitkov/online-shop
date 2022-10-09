@@ -1,6 +1,6 @@
 package com.example.onlineshop.mapstruct.dtos.order;
 
-import com.databases.shop.models.OrderStatus;
+import com.example.onlineshop.models.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;

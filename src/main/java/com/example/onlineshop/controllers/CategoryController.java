@@ -1,15 +1,15 @@
 package com.example.onlineshop.controllers;
 
-import com.databases.shop.exceptions.category.CategoryIllegalArgumentException;
-import com.databases.shop.exceptions.category.NoCategoryWithSuchId;
-import com.databases.shop.mapstruct.dtos.category.CategoryGetDto;
-import com.databases.shop.mapstruct.dtos.category.CategoryPostDto;
-import com.databases.shop.mapstruct.dtos.category.CategoryPutDto;
-import com.databases.shop.mapstruct.dtos.category.CategorySlimGetDto;
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.CategoryFilterBoundsDto;
-import com.databases.shop.mapstruct.mappers.CategoryMapper;
-import com.databases.shop.models.Category;
-import com.databases.shop.services.implementations.CategoryServiceImpl;
+import com.example.onlineshop.exceptions.category.CategoryIllegalArgumentException;
+import com.example.onlineshop.exceptions.category.NoCategoryWithSuchId;
+import com.example.onlineshop.mapstruct.dtos.category.CategoryGetDto;
+import com.example.onlineshop.mapstruct.dtos.category.CategoryPostDto;
+import com.example.onlineshop.mapstruct.dtos.category.CategoryPutDto;
+import com.example.onlineshop.mapstruct.dtos.category.CategorySlimGetDto;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.CategoryFilterBoundsDto;
+import com.example.onlineshop.mapstruct.mappers.CategoryMapper;
+import com.example.onlineshop.models.Category;
+import com.example.onlineshop.services.implementations.CategoryServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

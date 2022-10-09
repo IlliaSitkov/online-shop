@@ -1,7 +1,7 @@
 package com.example.onlineshop.controllers;
 
-import com.databases.shop.mapstruct.dtos.user.UserGetDto;
-import com.databases.shop.services.interfaces.UserService;
+import com.example.onlineshop.mapstruct.dtos.user.UserGetDto;
+import com.example.onlineshop.services.interfaces.UserService;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 

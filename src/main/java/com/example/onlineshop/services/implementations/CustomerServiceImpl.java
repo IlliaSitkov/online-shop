@@ -1,17 +1,17 @@
 package com.example.onlineshop.services.implementations;
 
-import com.databases.shop.exceptions.customer.NoCustomerWithSuchIdException;
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.CustomerFilterBoundsDto;
-import com.databases.shop.models.Customer;
-import com.databases.shop.models.Order;
-import com.databases.shop.models.OrderStatus;
-import com.databases.shop.repositories.CustomerFilterRepository;
-import com.databases.shop.repositories.CustomerRepository;
-import com.databases.shop.repositories.OrderRepository;
-import com.databases.shop.repositories.queryinterfaces.MinMaxValues;
-import com.databases.shop.services.interfaces.AdminService;
-import com.databases.shop.services.interfaces.CustomerService;
-import com.databases.shop.utils.Utils;
+import com.example.onlineshop.exceptions.customer.NoCustomerWithSuchIdException;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.CustomerFilterBoundsDto;
+import com.example.onlineshop.models.Customer;
+import com.example.onlineshop.models.Order;
+import com.example.onlineshop.models.OrderStatus;
+import com.example.onlineshop.repositories.CustomerFilterRepository;
+import com.example.onlineshop.repositories.CustomerRepository;
+import com.example.onlineshop.repositories.OrderRepository;
+import com.example.onlineshop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.services.interfaces.AdminService;
+import com.example.onlineshop.services.interfaces.CustomerService;
+import com.example.onlineshop.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

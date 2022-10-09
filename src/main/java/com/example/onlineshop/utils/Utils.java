@@ -1,12 +1,12 @@
 package com.example.onlineshop.utils;
 
-import com.databases.shop.exceptions.product.ProductIllegalArgumentException;
-import com.databases.shop.exceptions.salesman.IncorrectPhoneNumberFormatException;
-import com.databases.shop.exceptions.strings.InvalidAddressException;
-import com.databases.shop.exceptions.strings.InvalidContactsException;
-import com.databases.shop.exceptions.strings.InvalidDatesException;
-import com.databases.shop.exceptions.strings.InvalidNameException;
-import com.databases.shop.models.*;
+import com.example.onlineshop.exceptions.product.ProductIllegalArgumentException;
+import com.example.onlineshop.exceptions.salesman.IncorrectPhoneNumberFormatException;
+import com.example.onlineshop.exceptions.strings.InvalidAddressException;
+import com.example.onlineshop.exceptions.strings.InvalidContactsException;
+import com.example.onlineshop.exceptions.strings.InvalidDatesException;
+import com.example.onlineshop.exceptions.strings.InvalidNameException;
+import com.example.onlineshop.models.*;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;

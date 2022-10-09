@@ -1,9 +1,9 @@
 package com.example.onlineshop.services.interfaces;
 
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.SalesmanFilterBoundsDto;
-import com.databases.shop.mapstruct.dtos.salesman.SalesmanGetDto;
-import com.databases.shop.mapstruct.dtos.salesman.SalesmanPostDto;
-import com.databases.shop.models.Salesman;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.SalesmanFilterBoundsDto;
+import com.example.onlineshop.mapstruct.dtos.salesman.SalesmanGetDto;
+import com.example.onlineshop.mapstruct.dtos.salesman.SalesmanPostDto;
+import com.example.onlineshop.models.Salesman;
 
 public interface SalesmanService {
 

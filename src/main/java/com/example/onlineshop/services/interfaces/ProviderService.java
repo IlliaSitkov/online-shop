@@ -1,9 +1,9 @@
 package com.example.onlineshop.services.interfaces;
 
-import com.databases.shop.models.Address;
-import com.databases.shop.models.Contacts;
-import com.databases.shop.models.Provider;
-import com.databases.shop.repositories.queryinterfaces.MinMaxValues;
+import com.example.onlineshop.models.Address;
+import com.example.onlineshop.models.Contacts;
+import com.example.onlineshop.models.Provider;
+import com.example.onlineshop.repositories.queryinterfaces.MinMaxValues;
 
 public interface ProviderService {
 

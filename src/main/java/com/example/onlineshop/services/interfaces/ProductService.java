@@ -1,9 +1,9 @@
 package com.example.onlineshop.services.interfaces;
 
-import com.databases.shop.mapstruct.dtos.filterBoundsDtos.ProductFilterBoundsDto;
-import com.databases.shop.models.Category;
-import com.databases.shop.models.Product;
-import com.databases.shop.models.Provider;
+import com.example.onlineshop.mapstruct.dtos.filterBoundsDtos.ProductFilterBoundsDto;
+import com.example.onlineshop.models.Category;
+import com.example.onlineshop.models.Product;
+import com.example.onlineshop.models.Provider;
 
 import java.util.List;
 

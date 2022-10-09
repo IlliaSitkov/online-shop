@@ -1,6 +1,6 @@
 package com.example.onlineshop.services.implementations;
 
-import com.databases.shop.services.interfaces.AdminService;
+import com.example.onlineshop.services.interfaces.AdminService;
 import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.*;
 import com.google.firebase.auth.FirebaseAuth;

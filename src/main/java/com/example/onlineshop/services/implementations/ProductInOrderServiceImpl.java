@@ -1,17 +1,17 @@
 package com.example.onlineshop.services.implementations;
 
-import com.databases.shop.exceptions.product.NoProductWithSuchArticul;
-import com.databases.shop.exceptions.productInOrder.InsufficientProductQuantityException;
-import com.databases.shop.exceptions.productInOrder.NoProductInOrderWithSuchIdException;
-import com.databases.shop.mapstruct.dtos.productInOrder.ProductInOrderPostDto;
-import com.databases.shop.models.Order;
-import com.databases.shop.models.Product;
-import com.databases.shop.models.ProductInOrder;
-import com.databases.shop.models.ProductInOrderId;
-import com.databases.shop.repositories.ProductInOrderRepository;
-import com.databases.shop.repositories.ProductRepository;
-import com.databases.shop.services.interfaces.OrderService;
-import com.databases.shop.services.interfaces.ProductInOrderService;
+import com.example.onlineshop.exceptions.product.NoProductWithSuchArticul;
+import com.example.onlineshop.exceptions.productInOrder.InsufficientProductQuantityException;
+import com.example.onlineshop.exceptions.productInOrder.NoProductInOrderWithSuchIdException;
+import com.example.onlineshop.mapstruct.dtos.productInOrder.ProductInOrderPostDto;
+import com.example.onlineshop.models.Order;
+import com.example.onlineshop.models.Product;
+import com.example.onlineshop.models.ProductInOrder;
+import com.example.onlineshop.models.ProductInOrderId;
+import com.example.onlineshop.repositories.ProductInOrderRepository;
+import com.example.onlineshop.repositories.ProductRepository;
+import com.example.onlineshop.services.interfaces.OrderService;
+import com.example.onlineshop.services.interfaces.ProductInOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
